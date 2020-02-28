@@ -1,0 +1,6 @@
+export const SET_LOADING = 'SET_LOADING';
+export const SET_COMMUNITIES = 'SET_COMMUNITIES';
+export const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
+export const SET_VERSION = 'SET_VERSION';
+export const SET_COMMUNITY_SIZE = 'SET_COMMUNITY_SIZE';
+export const SET_LOANS = 'SET_LOANS';

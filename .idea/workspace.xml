@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b474c948-19e6-40c7-9609-f68e2c8db26b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/layouts/main_layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/layouts/main_layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/routes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/api/Forwards.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Communities.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Communities_List.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Community_Create.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Community_Leader_POV.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Community_Manage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Borrower_Pending_Loan_Requests.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Borrower_PoV.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Create_Loan_Request.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Lender_Pending_Loan_Requests.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Lender_PoV.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Community_Member_List.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Helper/Block_To_Timestamp.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Helper/Countdown.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Helper/List_Active_View.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Helper/Loan_Funding_Event_Log.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Helper/Loan_Request_Status.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Communities/Helper/Modal_Loan_Display_Panel.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Helper/Claim_Payments_List.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Helper/Community_Claim_Payments.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Helper/Community_Name.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Helper/Loan_Payment_Event_Log.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Helper/Modal_Loan_Lending_Display.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Helper/Modal_Loan_Request_Display.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Helper/Payment_Due.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Helper/Payment_Due_Loan.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Helper/Payment_Due_Loan_Roll.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Loans.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Loans_Loan_Requests.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Loans_My_Lending.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Modal/Modal_Loan_Universal.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Modal/Modal_Loan_Wrapper.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/Loans/Modal/Modal_Loan_Wrapper_Headless.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/admin/Settings.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/menu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/utility/balances.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/utility/balancesSmall.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/555.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Maple_Final-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Maple_Final-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Maple_Final-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Maple_Final-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Maple_Final-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blue - Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/giphy (2).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/giphy (3).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/giphy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/maple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pancake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pancakeGrey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/syrup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/test3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/usdc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/settings.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MakerDAO" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/routes.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/layouts/main_layout.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/main.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/main.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/main.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imports/ui/home.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="25" column="117" selection-start-line="25" selection-start-column="117" selection-end-line="25" selection-end-column="117" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;Countdown</find>
+      <find>loanInformation</find>
+      <find>Past</find>
+      <find>loanStatus</find>
+      <find>loanStatus:</find>
+      <find>fundingAmount</find>
+      <find>question mark</find>
+      <find>question</find>
+      <find>&lt;Popup</find>
+      <find>interval</find>
+      <find>this.setState({lo</find>
+      <find>blue</find>
+      <find>'blue'</find>
+      <find>'orange'</find>
+      <find>_firstPaymentUnix</find>
+      <find>Loan_Pa</find>
+      <find>setInterval</find>
+      <find>Payments Remaining</find>
+      <find>depositClaimed</find>
+      <find>10e7</find>
+      <find>console</find>
+      <find>_firstPayment</find>
+      <find>36</find>
+      <find>EtherLoans</find>
+      <find>kovan</find>
+      <find>console.log</find>
+      <find>42</find>
+      <find>1e8</find>
+      <find>ETHERLOANS_ADDRESS</find>
+      <find>0xc4e58899d03EC476492EB4e903e0D4d3684a3Db3</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/client/lib/themes/default/elements/icon.overrides.import.less" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Leader_Communities.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Lender_Active_Loans.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Borrower_Active_Loans.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Helper/Countdown.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Helper/Modal_Loan_Universal.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Helper/Test_Route.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Modal/Modal_Loan_Universal.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Helper/List_Active_View.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/menu.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Loans.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Helper/Payment_Due.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/utility/balancesSmall.jsx" />
+        <option value="$PROJECT_DIR$/client/init.js" />
+        <option value="$PROJECT_DIR$/imports/ui/utility/balances.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/imports/ui/footer.jsx" />
+        <option value="$PROJECT_DIR$/const/Administrative.js" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Modal/Modal_Loan_Wrapper_Headless.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Loans_My_Lending.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Loans_Loan_Requests.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Lender_Pending_Loan_Requests.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Helper/Modal_Loan_Request_Display.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Helper/Loan_Payment_Event_Log.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Helper/Modal_Loan_Lending_Display.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Helper/Community_Claim_Payments.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Helper/Payment_Due_Loan_Roll.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Modal/Modal_Loan_Wrapper.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Helper/Block_To_Timestamp.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Helper/Claim_Payments_List.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Helper/Community_Name.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Loans/Helper/Payment_Due_Loan.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Manage.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Leader_POV.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/admin/Settings.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Borrower_PoV.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Member_List.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Lender_PoV.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Borrower_Pending_Loan_Requests.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Communities_List.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Helper/Loan_Request_Status.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Helper/Modal_Loan_Display_Panel.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Helper/Loan_Funding_Event_Log.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Create.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Communities.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/Communities/Community_Member_Create_Loan_Request.jsx" />
+        <option value="$PROJECT_DIR$/client/routes.jsx" />
+        <option value="$PROJECT_DIR$/settings.json" />
+        <option value="$PROJECT_DIR$/client/layouts/main_layout.jsx" />
+        <option value="$PROJECT_DIR$/server/main.js" />
+        <option value="$PROJECT_DIR$/imports/ui/home.jsx" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EtherLoans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLoans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLoans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLoans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLoans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="const" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLoans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLoans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLoans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLoans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="smart_contract" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="enabled" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.meteor.library.cached" value="$PROJECT_DIR$/.meteor" />
+    <property name="js.meteor.library.was.enabled" value="true" />
+    <property name="js.meteor.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pseudonaut\Desktop\projects\EtherLoans\imports\ui\Loans\Modal" />
+      <recent name="C:\projects\MakerDAO\imports\ui\manage" />
+      <recent name="C:\projects\MakerDAO\imports\ui\marketplace" />
+      <recent name="C:\projects\MakerDAO\imports\ui\utility" />
+      <recent name="C:\projects\MakerDAO\imports\ui\admin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b474c948-19e6-40c7-9609-f68e2c8db26b" name="Default Changelist" comment="" />
+      <created>1553032667071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553032667071</updated>
+      <workItem from="1553032668315" duration="9981000" />
+      <workItem from="1553070502498" duration="19775000" />
+      <workItem from="1553287226368" duration="32673000" />
+      <workItem from="1553495288372" duration="617000" />
+      <workItem from="1553562595541" duration="11849000" />
+      <workItem from="1553631578048" duration="11061000" />
+      <workItem from="1553822657011" duration="304000" />
+      <workItem from="1554110873967" duration="6557000" />
+      <workItem from="1556397195691" duration="599000" />
+      <workItem from="1557099165652" duration="104000" />
+      <workItem from="1557732603159" duration="733000" />
+      <workItem from="1557803565960" duration="1242000" />
+      <workItem from="1558119761549" duration="797000" />
+      <workItem from="1559353344620" duration="1816000" />
+      <workItem from="1561085377762" duration="1251000" />
+      <workItem from="1561301573534" duration="2575000" />
+      <workItem from="1563135838483" duration="1214000" />
+      <workItem from="1563814235762" duration="608000" />
+      <workItem from="1565750860440" duration="499000" />
+      <workItem from="1566419989133" duration="27000" />
+      <workItem from="1575069051517" duration="1954000" />
+      <workItem from="1575487028361" duration="4497000" />
+      <workItem from="1575512254532" duration="2098000" />
+      <workItem from="1575733770435" duration="5722000" />
+      <workItem from="1576727988057" duration="599000" />
+      <workItem from="1577408480087" duration="3625000" />
+      <workItem from="1577461175590" duration="6415000" />
+      <workItem from="1578267601503" duration="6105000" />
+      <workItem from="1578346439587" duration="108956000" />
+      <workItem from="1579191039766" duration="62443000" />
+      <workItem from="1579746562939" duration="91756000" />
+      <workItem from="1580516508679" duration="8624000" />
+      <workItem from="1582048679643" duration="4433000" />
+      <workItem from="1582323019814" duration="22069000" />
+      <workItem from="1582671405493" duration="1297000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1553495303551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553495303551</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Second Commit">
+      <created>1553667921423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553667921423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="434875000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2612293" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Favorites" order="6" weight="0.3299532" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24980299" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="Second Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="dart-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Helper/Countdown.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="5" selection-end-line="81" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Helper/Block_To_Timestamp.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="36" lean-forward="true" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Helper/Test_Route.jsx" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Community_Member_Lender_PoV.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="62" column="44" lean-forward="true" selection-start-line="62" selection-start-column="44" selection-end-line="79" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Helper/List_Active_View.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Modal/Modal_Loan_Universal.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Helper/Payment_Due.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Helper/Loan_Payment_Event_Log.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="91" column="112" selection-start-line="91" selection-start-column="72" selection-end-line="91" selection-end-column="112" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Helper/Modal_Loan_Request_Display.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="76" column="6" lean-forward="true" selection-start-line="76" selection-start-column="6" selection-end-line="118" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Helper/Loan_Funding_Event_Log.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Helper/Loan_Request_Status.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Community_Member_Borrower_Pending_Loan_Requests.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Helper/Modal_Loan_Lending_Display.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Loans_My_Lending.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="184" column="67" lean-forward="true" selection-start-line="184" selection-start-column="67" selection-end-line="184" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Helper/Payment_Due_Loan.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Helper/Payment_Due_Loan_Roll.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="87" column="21" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Helper/Community_Claim_Payments.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1806">
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Community_Member_Lender_Pending_Loan_Requests.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Modal/Modal_Loan_Wrapper.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/utility/balancesSmall.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/utility/balances.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/.meteor/packages/ethereum_web3/0.20.5/web.browser/dist/web3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="3036" selection-start-line="3036" selection-end-line="3036" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/.id">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Loans.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Modal/Modal_Loan_Wrapper_Headless.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Loans/Loans_Loan_Requests.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Helper/Modal_Loan_Display_Panel.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Community_Member_List.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Community_Manage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/const/Administrative.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Community_Create.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1743">
+          <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/admin/Settings.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Communities.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Community_Member_Borrower_PoV.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1722">
+          <caret line="85" column="68" selection-start-line="85" selection-start-column="68" selection-end-line="85" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Community_Member_Create_Loan_Request.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3276">
+          <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Communities_List.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1743">
+          <caret line="86" column="110" selection-start-line="86" selection-start-column="103" selection-end-line="86" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Communities/Community_Leader_POV.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/layouts/main_layout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/api/Forwards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/routes.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="25" column="117" selection-start-line="25" selection-start-column="117" selection-end-line="25" selection-end-column="117" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
